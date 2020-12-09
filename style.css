@@ -1,0 +1,110 @@
+@font-face {
+  font-family: undertale;
+  src: url(determination.ttf);
+}
+
+* {
+  font-family: undertale;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: absolute;
+  margin-top: -8px;
+  left: 0px;
+  width: 100%;
+  border: none;
+  background-color: 333333;
+  overflow: hidden;
+}
+
+.iframe {
+	display: block;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #777;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: white;
+}
+
+/* Add a color to the active/current link 
+.topnav a.active {
+  background-color: #4CAF50;
+  color: gray;
+}*/
+
+.container {
+  display: inline-block;
+    position: relative;
+    left: 192px; /* This will move it 20px to the right */
+}
+
+.image {
+  display: block
+  display: inline-block;
+}
+
+.caption {
+  display: block;
+  width: 100%;
+  text-align: center; //assuming centered captions
+}
+
+.botnav {
+  position: absolute;
+  margin-top: 8px;
+  left: 0px;
+  width: 100%;
+  border: none;
+  background-color: 333333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.botnav a {
+  float: right;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* Change the color of links on hover */
+.botnav a:hover {
+  color: white;
+}
